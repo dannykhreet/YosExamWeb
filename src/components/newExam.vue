@@ -60,7 +60,6 @@
                     <div class="hobbies form-group col">
                       <label class="input-group-text"
                               for="questions">الاسئلة</label>
-                          <button @click="onAddQuestion" type="button">أضافة سؤال</button>
                           <div class="hobby-list">
                             <div
                                     class="input"
@@ -97,6 +96,7 @@
                               <button @click="onDeleteQuestion(NumberInput.id)" type="button">X</button>
                             </div>
                           </div>
+                       <button @click="onAddQuestion" type="button">أضافة سؤال</button>
                     </div>
                  </div>
                   <div class="row">
